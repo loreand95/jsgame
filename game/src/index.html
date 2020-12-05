@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title><%= htmlWebpackPlugin.options.title %></title>
+</head>
+<body>
+<div class="bottom_left">
+    <i class="video-game-button material-icons sound_button" id="volume">volume_up</i>
+</div>
+<div class="bottom_right">
+    <span class="video-game-button jump" id="jump">JUMP</span>
+</div>
+<div id="main" class="main">
+    <div class="street"></div>
+    <span class="square man" id="player"></span>
+    <p class="live_score" id="liveScore">Score: 0</p>
+</div>
+<div class="menu" id="menu">
+    <div id="gameOver" class="game_over">
+        <p>GAME OVER</p>
+        <p id="best">Best: </p>
+        <p class="score" id="score">Score: </p>
+    </div>
+    <div>
+        <span class="video-game-button" id="go">GO!</span>
+    </div>
+    <div class="blink">
+        <p>Click or press any key</p>
+    </div>
+</div>
+</body>
+</html>
